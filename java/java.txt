@@ -1,0 +1,40 @@
+write a java program to check even or not.
+
+import Java.io.*;
+class enum{
+	public static void main(string arr[] throw IOexception){
+DataInputStream ds=new datainputstream(system.in);
+System.out print("Enter any number: ");
+int a=Integer.passive Int(ds.readline());
+if(a%2==0){
+System.out print("Even");
+}
+else
+System.out print("odd");
+}
+}
+
+write a java program to check leapyear or not.
+
+import java.io.*;
+
+class LeapYear {
+  public static void main(String[] args) throws IOException {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    System.out.print("Enter the year: ");
+    int year = Integer.parseInt(br.readLine());
+    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+      System.out.println(year + " is a leap year");
+    } else {
+      System.out.println(year + " is not a leap year");
+    }
+  }
+}
+
+
+write a java program to check given input is palindrome or not
+
+import java.io.*;
+
+class palindrome {
+	public static void main(string 
